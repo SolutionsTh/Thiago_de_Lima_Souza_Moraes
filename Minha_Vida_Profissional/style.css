@@ -122,25 +122,24 @@ body::-webkit-scrollbar-thumb {
 .informacoesPessoal{
     display: flex;
     background-color: #000000cb;
+    padding: 20px 0px;
 }
 #informacaoPessoalEsquerda{
     margin: auto 30px;
-    margin-left: 50px;
     border-radius: 10px;
-    padding:  10px;
 }
 .descricaoPerfilProfissionalEsquerda{
     font-size: 30px;
     font-family: fonte3;
 }
 #nomeDonoEsquerda{
-    font-size: 37px;
+    font-size: 27px;
     font-weight: bold;
     font-family: fonte2;
 }
-.descricaoDivisaoInformacaoPessoalEsquerda:first-child{
+/* .descricaoDivisaoInformacaoPessoalEsquerda:first-child{
     margin-top: 25px;
-}
+} */
 .descricaoDivisaoInformacaoPessoalEsquerda{
     font-size: 20px;
     padding: 10px 0px;
@@ -158,9 +157,6 @@ body::-webkit-scrollbar-thumb {
     padding: 10px;
     justify-content: center;
     margin: auto;
-}
-#divisaoInformacaoPessoalTopo{
-    margin: 15px 0px;
 }
 .divisaoFoto{
     display: flex;
